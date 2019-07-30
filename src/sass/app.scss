@@ -1,0 +1,30 @@
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// @import "cover";
+
+@import "header";
+@import "index";
+@import "font-awesome";
+@import "about";
+@import "datatable";
+@import "contact-us";
+
+main {
+    .container {
+        min-height: 500px;
+    }
+}
+
+body {
+    font-family: 'Raleway';
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}

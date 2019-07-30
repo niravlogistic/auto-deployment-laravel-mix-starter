@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "laravel-mix-starter",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ]
+}

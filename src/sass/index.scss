@@ -1,0 +1,49 @@
+#lms-page-index {
+    p {
+        font-size: 14px;
+        //576
+        @include media-breakpoint-up(sm) {
+            font-size: 15px;
+        }
+        //768
+        @include media-breakpoint-up(md) {
+            font-size: 16px;
+        }
+        //992
+        @include media-breakpoint-up(lg) {
+            font-size: 17px;
+        }
+        //1200
+        @include media-breakpoint-up(xl) {
+            font-size: 18px;
+        }
+
+        // span {
+        //     background-color: $primary;
+        // }
+    }
+}
+
+
+.hd-title{
+    width: 100%;
+    h3{
+        width: 100%;
+        font-size: 35px;
+        padding: 25px 0px;
+    }
+}
+
+.animated-box{
+    width: 100%;
+    padding: 50px  30px;
+    margin: 0px 0px 40px 0px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.sweetalert{
+    width: 100%;
+    text-align: center;
+}
