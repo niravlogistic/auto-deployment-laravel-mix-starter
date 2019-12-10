@@ -10,7 +10,7 @@ You can find step by step guide from [this blog](https://www.logisticinfotech.co
     npm install
 
 ## To run with live reload
-    npm run hot
+    npm start
 
 ## Generate production build
     npm run prod
@@ -32,3 +32,7 @@ we can use standerd ejs syntex
 
 ## app.scss
 this file includes bootstrap directly from node_modules
+
+# if sass error
+please try this command if you receive sass error
+`npm install node-sass`
